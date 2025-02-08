@@ -3,7 +3,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
-from utils.habitat_utils import simulate_sensor_data, check_health_status, predict_failures, detect_anomalies
+#from utils.habitat_utils import simulate_sensor_data, check_health_status, predict_failures, detect_anomalies
+from utils.habitat_utils1 import simulate_sensor_data, check_health_status, predict_failures, detect_anomalies
 
 # Page configuration
 st.set_page_config(page_title="Smart Space Habitat Manager", layout="wide")
